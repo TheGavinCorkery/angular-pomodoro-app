@@ -9,18 +9,22 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { TimerComponent } from './components/timer/timer.component';
+import { NewTimerComponent } from './new-timer/new-timer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    TimerComponent
+    TimerComponent,
+    NewTimerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    CountdownModule
+    CountdownModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent, NavbarComponent]
