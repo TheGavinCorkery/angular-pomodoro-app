@@ -1,6 +1,6 @@
-<ul ngbNav #nav="ngbNav" class = "nav-tabs">
-    <div class="row">
-        <div class="col-3">
+<div class="row">
+    <ul ngbNav #nav="ngbNav" class = "nav-tabs">
+        <div class="col-lg-3">
             <li NgbNavItem>
                 <h1>Pomodoro Timer</h1>
             </li>
@@ -8,5 +8,10 @@
         <li NgbNavItem>
             <a NgbNavLink>Profile</a>
         </li>
-    </div>
-</ul>
+        <div class="col-lg-6"></div>
+        <div class="col-lg-3" NgbNavItem>
+            <app-new-timer></app-new-timer>
+        </div>
+    </ul>
+</div>
+
