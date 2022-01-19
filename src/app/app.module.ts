@@ -11,13 +11,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { TimerComponent } from './components/timer/timer.component';
 import { NewTimerComponent } from './components/new-timer/new-timer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginWithGoogleComponent } from './login/login-with-google/login-with-google.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     TimerComponent,
-    NewTimerComponent
+    NewTimerComponent,
+    LoginWithGoogleComponent
   ],
   imports: [
     BrowserModule,
